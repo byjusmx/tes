@@ -142,7 +142,7 @@ function draw() {
   textSize(20);
   stroke(3);
   fill("black")
-  text("Score: "+ score, camera.position.x,50);
+  text("Puntuación: "+ score, camera.position.x,50);
   
   if(score >= 5){
     kangaroo.visible = false;
